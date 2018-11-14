@@ -16,7 +16,7 @@ services:
     environment:
       - KAFKA_ADVERTISED_HOST_NAME=127.0.0.1
       - KAFKA_ADVERTISED_PORT=9092
-#      - KAFKA_CREATE_TOPICS=customer:1:1,audit:1:1
+      - KAFKA_CREATE_TOPICS=customer:1:1,audit:1:1
       - KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
       - JMX_PORT=9999
 
