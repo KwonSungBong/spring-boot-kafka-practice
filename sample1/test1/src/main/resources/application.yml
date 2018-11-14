@@ -4,5 +4,9 @@ server:
 spring:
   kafka:
     consumer:
+      bootstrap-servers: 211.49.172.81:9092
       group-id: foo
       auto-offset-reset: earliest
+
+kafka:
+  bootstrap-servers: www.bookstorage.kr:9092
